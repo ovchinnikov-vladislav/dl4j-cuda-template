@@ -20,12 +20,6 @@
 
     <dependencyManagement>
         <dependencies>
-            <!-- Вычисления на ЦПУ -->
-            <!--            <dependency>-->
-            <!--                <groupId>org.nd4j</groupId>-->
-            <!--                <artifactId>nd4j-native-platform</artifactId>-->
-            <!--                <version>${nd4j.version}</version>-->
-            <!--            </dependency>-->
             <!--    Подключение CUDA для вычислений на ГПУ-->
             <dependency>
                 <groupId>org.nd4j</groupId>
@@ -54,15 +48,10 @@
             <version>1.0.0-beta7</version>
         </dependency>
         <!-- -  В случае, если на системе не предустановлен CUDA -->
-        <dependency>
-            <groupId>org.bytedeco</groupId>
-            <artifactId>cuda-platform-redist</artifactId>
-            <version>10.2-7.6-1.5.3</version>
-        </dependency>
         <!--        <dependency>-->
-        <!--            <groupId>org.nd4j</groupId>-->
-        <!--            <artifactId>nd4j-native-platform</artifactId>-->
-        <!--            <version>${nd4j.version}</version>-->
+        <!--            <groupId>org.bytedeco</groupId>-->
+        <!--            <artifactId>cuda-platform-redist</artifactId>-->
+        <!--            <version>10.2-7.6-1.5.3</version>-->
         <!--        </dependency>-->
         <!-- Зависимости от DataVec -->
         <dependency>
